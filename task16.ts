@@ -1,0 +1,15 @@
+const places = ["paris","japan","england","hawai","germany"];
+const result=[...places].sort();
+console.log("Original arr=",places);
+console.log("Alphabetical=",result);
+console.log("Original arr=",places);
+const arrReversed = [...places].reverse();
+console.log("Reversed arr=",arrReversed);
+console.log("Original arr=",places);
+console.log("Order change=",arrReversed);
+const arrReversedagain= [...arrReversed].reverse();
+console.log("conveted arr=",arrReversedagain);
+const resultAlp=[...result].sort();
+console.log("Alphabetical convt=",resultAlp);
+const revAlp = [...resultAlp].reverse();
+console.log("revAlphabetic=",revAlp);
